@@ -1,0 +1,27 @@
+button{
+    border-radius: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+    border: 1px solid white;
+    outline: none;
+    background-color: #fafafa75;
+    margin: 3px;
+    margin: 5px;
+}
+button:hover{
+    background-color: #fafafa;
+}
+#suma{
+    grid-column: 4;
+    grid-row: 2/4;  
+}
+#igual{
+    grid-column: 4;
+    grid-row: 4/6;  
+}
+#cero{
+    grid-row: 5;
+    grid-column: 1/3;
+}
